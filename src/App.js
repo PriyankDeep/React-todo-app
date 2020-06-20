@@ -64,7 +64,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div id="c" className="App">
+      <div className="App">
         <header>
           <div className="todotext">
             Write your
