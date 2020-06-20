@@ -1,38 +1,113 @@
+body {
+  background-color: #f9ea8f;
+background-image: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%);
+  
+}
+
 .App {
-  text-align: center;
+  background-color: #fbb034;
+background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%);
+/* background: linear-gradient(-45deg, #FFFF00, #ffce08,#FFFF00, #00FF7F, #FFD700);
+	background-size: 400% 400%; */
+  max-height: 693px;
+
+  width: 380px;
+  margin: 40px auto;
+  border-radius: 25px;
+  border: 3px solid #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+#form-to-do input {
+  background-color: #fff;
+  border: 0;
+  width: 300px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px 0 0 20px ;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #787878;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#form-to-do input:placeholder {
+  color: rgb(107, 28, 28);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#form-to-do input:focus {
+  outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+.submit-button {
+  height: 52px;
+  width: 200px;
+  border-radius:5px;
+  border: 0;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-color: #fc930a;
+  transition: 0.5s;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #fff;
+  margin: 20px 0 0 20px ;
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit-button:hover{
+background-color: #fc630a;
+  /* background-position: right center; */
+  transition: 0.5s;
 }
+
+.clear-button{
+
+  height: 52px;
+  width: 120px;
+  border-radius:5px;
+  border: 0;
+  
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-color: rgb(219, 152, 52);
+  cursor: pointer;
+  font-weight: bolder;
+  color: #fff;
+  margin: 20px 0 0 20px ;
+  outline: none;
+}
+
+.clear-button:hover{
+  background-color: rgb(241, 162, 44);
+}
+
+.bottom{
+  background-color: #fafafa;
+  min-height: 395px;
+  width: 380px;
+  margin-top: 40px;
+  border-radius: 25px;
+  
+
+}
+
+.todotext{
+  margin-left: 20px;
+  padding-top: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.todotext span{
+  font-size: 40px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+
+.date{
+  font-size: 13px;
+  color:#ccc;
+  right: 153px;
+  margin-top: 22px;
+}
+

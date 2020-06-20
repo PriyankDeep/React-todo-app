@@ -1,0 +1,51 @@
+.list {
+  color: #797979;
+  width: 300px;
+  /* background-color: orange; */
+  height: 50px;
+  /* border-radius: 5px; */
+  margin: 10px auto;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(120, 120, 120, 0.3);
+  padding-bottom: 18px;
+}
+
+.list p {
+  padding: 9px;
+  position: relative;
+}
+
+.list p input {
+  background-color: transparent;
+  border: 0;
+  color: #787878;
+  font-size: 15px;
+}
+.list p input:focus {
+  outline: none;
+}
+
+.list p span {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.faIcons {
+  margin: 11px auto;
+  font-size: 25px;
+  color: #fbb034;
+  transition: transform 1s;
+}
+
+.faIcons-calendar {
+  font-size: 13px;
+  padding-right: 6px;
+  color: #fbb034;
+}
+
+.faIcons:hover {
+  color: #dd3131;
+
+  transform: rotate(180deg);
+}
