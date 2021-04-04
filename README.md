@@ -1,3 +1,3 @@
 ## React-ToDo-App
 
-For live preview: https://priyankdeep.github.io/React-ToDo-App/
+For live preview: https://thewanderer78.github.io/React-ToDo-App/
